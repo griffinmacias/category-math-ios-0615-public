@@ -12,8 +12,9 @@
 		31B0BDEFFF3A4FBC9B60573B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6138509A5EC48AD80648958 /* Foundation.framework */; };
 		58025F34C33F409AB9275D23 /* FISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5837AB42A6D240DA8A07F5E3 /* FISAppDelegate.m */; };
 		72004B0E1A1695170022D943 /* NSNumber+FISMathAdvancedSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 72004B0D1A1695170022D943 /* NSNumber+FISMathAdvancedSpec.m */; };
-		7223E42419D5BF9000E06AB0 /* NSNumber+FISMath.m in Sources */ = {isa = PBXBuildFile; fileRef = 7223E42319D5BF9000E06AB0 /* NSNumber+FISMath.m */; };
 		7223E42619D5BFCD00E06AB0 /* NSNumber+FISMathSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 7223E42519D5BFCD00E06AB0 /* NSNumber+FISMathSpec.m */; };
+		DB65FD801AEC5E6300C6637E /* NSNumber+FISMath.m in Sources */ = {isa = PBXBuildFile; fileRef = DB65FD7F1AEC5E6300C6637E /* NSNumber+FISMath.m */; };
+		DB65FD831AEC611700C6637E /* NSNumber+FISMathAdvanced.m in Sources */ = {isa = PBXBuildFile; fileRef = DB65FD821AEC611700C6637E /* NSNumber+FISMathAdvanced.m */; };
 		F5858952A0174ED38C4595AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AB8BE8A3CB9436CA7983262 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -36,14 +37,16 @@
 		5CE73FE89A4074BA2BEF84B6 /* Pods-unit_tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unit_tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6FCB94E5152740AEAA072B42 /* libPods-unit_tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-unit_tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		72004B0D1A1695170022D943 /* NSNumber+FISMathAdvancedSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+FISMathAdvancedSpec.m"; sourceTree = "<group>"; };
-		7223E42219D5BF9000E06AB0 /* NSNumber+FISMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+FISMath.h"; sourceTree = "<group>"; };
-		7223E42319D5BF9000E06AB0 /* NSNumber+FISMath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+FISMath.m"; sourceTree = "<group>"; };
 		7223E42519D5BFCD00E06AB0 /* NSNumber+FISMathSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+FISMathSpec.m"; sourceTree = "<group>"; };
 		A464BA46F2F441B3AF158F2D /* CategoryMath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CategoryMath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6138509A5EC48AD80648958 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		B6CBBA13D75040539DAFF525 /* CategoryMath-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CategoryMath-Prefix.pch"; sourceTree = "<group>"; };
 		BD5ADB60AE1D46CEA8464E66 /* UnitTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
 		D4E3E72B46754A808AE13190 /* UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB65FD7E1AEC5E6300C6637E /* NSNumber+FISMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+FISMath.h"; sourceTree = "<group>"; };
+		DB65FD7F1AEC5E6300C6637E /* NSNumber+FISMath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+FISMath.m"; sourceTree = "<group>"; };
+		DB65FD811AEC611700C6637E /* NSNumber+FISMathAdvanced.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+FISMathAdvanced.h"; sourceTree = "<group>"; };
+		DB65FD821AEC611700C6637E /* NSNumber+FISMathAdvanced.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+FISMathAdvanced.m"; sourceTree = "<group>"; };
 		F01DC4B79C0D45F1A1950A78 /* CategoryMath-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CategoryMath-Info.plist"; sourceTree = "<group>"; };
 		FA12E0D3B199455C8186F671 /* UnitTests-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UnitTests-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,6 +85,10 @@
 			children = (
 				42D799B8830F4AF9A7936AAA /* FISAppDelegate.h */,
 				5837AB42A6D240DA8A07F5E3 /* FISAppDelegate.m */,
+				DB65FD7E1AEC5E6300C6637E /* NSNumber+FISMath.h */,
+				DB65FD7F1AEC5E6300C6637E /* NSNumber+FISMath.m */,
+				DB65FD811AEC611700C6637E /* NSNumber+FISMathAdvanced.h */,
+				DB65FD821AEC611700C6637E /* NSNumber+FISMathAdvanced.m */,
 				10F477D17DC0405CB9FE5612 /* Resources */,
 			);
 			path = CategoryMath;
@@ -321,7 +328,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB65FD831AEC611700C6637E /* NSNumber+FISMathAdvanced.m in Sources */,
 				58025F34C33F409AB9275D23 /* FISAppDelegate.m in Sources */,
+				DB65FD801AEC5E6300C6637E /* NSNumber+FISMath.m in Sources */,
 				29300D7F10354B1EBF39D169 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
